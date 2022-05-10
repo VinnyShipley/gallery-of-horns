@@ -1,6 +1,12 @@
 import React from "react";
 import HornedBeast from "./HornedBeast.js";
 
+
+
+
+
+
+
 class App extends React.Component {
   render() {
     return (
@@ -12,6 +18,7 @@ class App extends React.Component {
           description="A unicorn and a narwhal nuzzling their horns"
           keyword="narwhal"
           horns='1'
+          
         />
         <HornedBeast
           id='2'
