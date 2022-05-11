@@ -28,8 +28,8 @@ Estimated time needed to complete: 1 hour
 
 Start time: 3:20
 
-Finish Time: 
+Finish Time: 5:13 
 
-Actual time needed to completion: 
+Actual time needed to completion: 1:53
 
 For the card implementation I borrowed heavily from the bootstrap site linked here: https://react-bootstrap.github.io/components/cards/
