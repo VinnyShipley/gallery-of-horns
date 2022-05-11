@@ -1,4 +1,5 @@
 import React from 'react';
+import { Card } from 'react-bootstrap';
 
 
 class HornedBeast extends React.Component {
@@ -16,19 +17,20 @@ class HornedBeast extends React.Component {
   render() {
     return (
       <article>
-        <h2>{this.props.title}</h2>
-        <img
-          onClick={this.addClicks}
-          src={this.props.imageUrl}
-          alt={this.props.title}
-          title={this.props.title} />
-        <p>{this.props.description}</p>
-        <p>The {this.props.title} has {this.props.horns} horn(s)</p>
-        <p>❤️{this.state.clicks}</p>
+        <Card style= {{ width: '18vw'}}>
+          <Card.Img onClick={this.addClicks} src={this.props.imageUrl} variant='top'/>
+          <Card.Body>
+            <Card.Title>{this.props.title}</Card.Title>
+            <Card.Text>
+              {this.props.description}
+              <br></br>
+              ❤️ {this.state.clicks}
+            </Card.Text>
+          </Card.Body>
+        </Card>
       </article>
     )
   }
-
 }
 
 export default HornedBeast

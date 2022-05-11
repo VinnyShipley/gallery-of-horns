@@ -32,3 +32,4 @@ Finish Time:
 
 Actual time needed to completion: 
 
+For the card implementation I borrowed heavily from the bootstrap site linked here: https://react-bootstrap.github.io/components/cards/
