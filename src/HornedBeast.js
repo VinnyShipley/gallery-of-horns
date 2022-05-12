@@ -32,7 +32,7 @@ handleClick = () => {
             <Card.Text>
               {this.props.description}
               <br></br>
-              ❤️ {this.state.clicks}
+              ❤️ {this.state.clicks} 
             </Card.Text>
           </Card.Body>
         </Card>

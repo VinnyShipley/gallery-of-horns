@@ -1,9 +1,27 @@
 import React from "react";
 
 class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      horns: ''
+    };
+  }
+
+  handleSubmit= (event) => {
+    event.preventDefault();
+    this.setState({
+      horns: event.target.selected.value
+    })
+  }
+  
   render() {
     return (
-      <h1>Horned Beasts R Us</h1>
+      <>
+        <h1>Select How Many Horns</h1>
+        
+      </>
     );
   };
 };
