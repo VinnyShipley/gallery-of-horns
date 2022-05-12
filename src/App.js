@@ -14,9 +14,12 @@ class App extends React.Component {
     super(props);
     this.state = {
       selectedBeast: null,
-      isModalDisplaying: false
+      isModalDisplaying: false,
     }
   }
+
+  
+
   selectABeast = (beast) => {
     this.setState({
       selectedBeast: beast
@@ -33,6 +36,9 @@ class App extends React.Component {
       isModalDisplaying: false
     });
   };
+
+
+
   render() {
     return (
       <>
@@ -44,12 +50,13 @@ class App extends React.Component {
           openModalHandler={this.openModalHandler}
           selectABeast={this.selectABeast}
         >
-
+         
         </Main>
         <Footer />
         <Modal
           show={this.state.isModalDisplaying}
           onHide={this.state.closeModalHandler}
+
         >{this.state.selectedBeast && this.state.selectedBeast.title}
         </Modal>
       </>
