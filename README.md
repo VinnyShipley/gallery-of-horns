@@ -42,6 +42,6 @@ Estimated time needed to complete: 2
 
 Start time: 3:10
 
-Finish Time: 
+Finish Time: 6:30
 
-Actual time needed to completion: 
+Actual time needed to completion: 3:20
