@@ -33,3 +33,15 @@ Finish Time: 5:13
 Actual time needed to completion: 1:53
 
 For the card implementation I borrowed heavily from the bootstrap site linked here: https://react-bootstrap.github.io/components/cards/
+
+Lab 03
+
+Number and name of feature: 1, display modal
+
+Estimated time needed to complete: 2
+
+Start time: 3:10
+
+Finish Time: 
+
+Actual time needed to completion: 
