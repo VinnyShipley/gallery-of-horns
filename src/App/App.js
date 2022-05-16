@@ -56,7 +56,6 @@ class App extends React.Component {
         <Modal
           show={this.state.isModalDisplaying}
           onHide={this.state.closeModalHandler}
-
         >{this.state.selectedBeast && this.state.selectedBeast.title}
         </Modal>
       </>
